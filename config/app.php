@@ -14,7 +14,7 @@ return [
     */
 
     'name' => env('APP_NAME', 'Laravel'),
-
+	'version' => parse_ini(storage_path('s.ini'),
     /*
     |--------------------------------------------------------------------------
     | Application Environment
